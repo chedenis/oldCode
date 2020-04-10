@@ -1,0 +1,68 @@
+{
+    "tests": [
+        {
+            "route": "https://tpaqa.cslico.com/v0/demographicQueue",
+            "sendingObject": {
+                "password" : "h08ST2ZCURZ3",
+                "username" : "sdctpa",
+                "governmentId" : "5000007731990",
+                "legalRepEmail" : null,
+                "legalRepPhone" : "2567551661",
+                "legalRepZip" : "358010000",
+                "legalRepState" : "AL",
+                "legalRepCity" : "RANDOM9",
+                "legalRepAddressLine2" : "",
+                "legalRepAddressLine1" : "222 WESTCHESTER AVE SW",
+                "legalRepLastName" : "RANDOM9",
+                "legalRepFirstName" : "RANDOM9",
+                "sendBillTo" : "Facility",
+                "socialSecurityNumber" : "419740312",
+                "sex" : "F",
+                "lastName" : "RANDOM9",
+                "firstName" : "RANDOM9",
+                "effectiveDate" : "2018-01-01",
+                "birthDate" : "1951-09-13",
+                "groupNumber" : "0000064507",
+                "externalId" : "0010h00001XgAAzAAN",
+                "transactionId": "f6356b05-2020-41fd-8f49-db5884644253"
+            },
+            "sql": [
+                {
+                    "type": "as400",
+                    "database": "CARSTEST",
+                    "table": "PDTMSTR",
+                    "check": {
+                        "PMPRID": "DCSNH",
+                        "PMGRP": "0000064503",
+                        "PMACCT": "1000"
+                    }
+                }
+            ]
+        },
+        {
+            "route": "https://authqa.freds.cslico.com/api/login",
+            "sendingObject": {
+                "username": "cdenison",
+                "password": "Hello9529!"
+            },
+            "mongo": [
+                {
+                    "mongoTestCollection": "",
+                    "mongoTestObject": ""
+                }
+            ],
+            "sql": [
+                {
+                    "type": "as400",
+                    "database": "CARSTEST",
+                    "table": "PDTMSTR",
+                    "check": {
+                        "PMPRID": "DCSNH",
+                        "PMGRP": "0000064503",
+                        "PMACCT": "1000"
+                    }
+                }
+            ]
+        }
+    ]
+}

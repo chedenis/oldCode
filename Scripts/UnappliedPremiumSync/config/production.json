@@ -1,0 +1,23 @@
+{
+    "groupPlusBaseURL": "https://gplus.freds.cslico.com/api",
+    "authSeviceBaseURL": "https://auth.freds.cslico.com/api",
+    "residentBaseUrl": "https://resident.freds.cslico.com/api",
+    "mongoBaseUrl": "mongodb://cdenisonadmin:ches is awesome@mongo.prod.cslico.com/freds?authSource=admin",
+    "fredsLogin": {
+        "username": "greenwaydirect",
+        "password": "Gr33nw4y#01"
+    },
+    "sql02Options": {
+        "user": "fredsweb",
+        "password": "Freds1sAw3somE!!!!",
+        "server": "sql02.ad.cslico.com",
+        "port": "1433",
+        "stream": true,
+        "database": "master",
+        "connectionTimeout": 30000,
+        "requestTimeout": 30000,
+        "options": {
+            "encrypt": true
+        }
+    }
+}

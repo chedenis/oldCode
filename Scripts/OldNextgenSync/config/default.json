@@ -1,0 +1,19 @@
+{
+    "groupPlusBaseURL": "http://localhost:8040",
+    "authSeviceBaseURL": "http://localhost:8055",
+    "residentBaseUrl": "http://localhost:8012",
+    "mongoBaseUrl": "mongodb://localhost/freds",
+    "fredsLogin": {
+        "username": "nextgenrosetta",
+        "password": "dC_8PbMw2+Ej7XqE"
+    },
+    "sql01Options": {
+        "user": "fredsngexternalid",
+        "password": "Fr#dsNGExID$",
+        "server": "sql01.ad.cslico.com",
+        "port": "1433",
+        "stream": true,
+        "database": "master",
+        "requestTimeout": 30000
+    }
+}

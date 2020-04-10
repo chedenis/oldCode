@@ -1,0 +1,16 @@
+{
+  "name": "cof-tracker-api",
+  "version": "0.0.1",
+  "dependencies": {
+    "body-parser": "1.17.2",
+    "config": "1.26.1",
+    "express": "4.15.3",
+    "http": "*",
+    "https": "*",
+    "mongoose": "*",
+    "passport": "0.4.0",
+    "passport-http-bearer": "1.0.1",
+    "winston": "2.3.1",
+    "superagent": "*"
+  }
+}

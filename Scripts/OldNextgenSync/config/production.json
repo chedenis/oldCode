@@ -1,0 +1,19 @@
+{
+    "groupPlusBaseURL": "https://gplus.freds.cslico.com/api",
+    "authSeviceBaseURL": "https://auth.freds.cslico.com/api",
+    "residentBaseUrl": "https://resident.freds.cslico.com/api",
+    "mongoBaseUrl": "mongodb://cdenisonadmin:ches is awesome@mongo.prod.cslico.com/freds?authSource=admin",
+    "fredsLogin": {
+        "username": "nextgenrosetta",
+        "password": "dC_8PbMw2+Ej7XqE"
+    },
+    "sql01Options": {
+        "user": "fredsngexternalid",
+        "password": "Fr#dsNGExID$",
+        "server": "sql01.ad.cslico.com",
+        "port": "1433",
+        "stream": true,
+        "database": "master",
+        "requestTimeout": 30000
+    }
+}

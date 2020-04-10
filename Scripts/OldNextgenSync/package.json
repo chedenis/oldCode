@@ -1,0 +1,13 @@
+{
+    "name": "nextgen_To_Freds_Sync_Script",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "dependencies": {
+        "mssql": "*",
+        "superagent": "*",
+        "mongodb": "*",
+        "async": "*"
+    },
+    "author": "Ches_The_Marketing_Guru"
+}

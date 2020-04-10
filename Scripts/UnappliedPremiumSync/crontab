@@ -1,0 +1,1 @@
+*/2 * * * * root . /root/env; cd /usr/src/app/scripts && NODE_ENV=${NODE_ENV} /usr/local/bin/node app.js >> /var/log/cronGreenway.log 2>&1

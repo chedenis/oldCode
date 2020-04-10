@@ -1,0 +1,14 @@
+{
+    "name": "greenway_To_Freds_Sync_Script",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "dependencies": {
+      "mssql": "*",
+      "superagent": "*",
+      "mongodb": "*",
+      "async": "*", 
+      "mongoose": "4.9.4"
+    },
+    "author": "Ches_The_Marketing_Guru"
+  }

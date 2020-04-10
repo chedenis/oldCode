@@ -1,0 +1,25 @@
+{
+    "auth": {
+        "url": "https://authqa.freds.cslico.com/api"
+    },
+    "mongoUrl": "mongodb://mongo.qa.cslico.com",
+    "fredsLogin": {
+        "username": "nextgenrosetta",
+        "password": "dC_8PbMw2+Ej7XqE"
+    },
+    "sql01": {
+        "user": "fredsngexternalid",
+        "password": "Fr#dsNGExID$",
+        "server": "nextgenag.ad.cslico.com",
+        "port": "1433",
+        "stream": true,
+        "database": "master",
+        "requestTimeout": 30000
+    },
+    "as400": {
+        "host": "192.168.75.1",
+        "user": "fredswebdv",
+        "password": "fr#dsw#b07",
+        "database": "CARSTEST"
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "integration_tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "dependencies": {
+    "mssql": "*",
+    "superagent": "3.5.2",
+    "mongodb": "*",
+    "freds-config": "git+ssh://bitbucket.cslico.com:7999/fred/freds-config.git",
+    "freds-logger": "git+ssh://bitbucket.cslico.com:7999/fred/freds-logger.git",
+    "node-jt400": "*"
+  },
+  "author": "Ches_The_Marketing_Guru"
+}

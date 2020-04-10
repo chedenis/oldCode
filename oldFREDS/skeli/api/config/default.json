@@ -1,0 +1,23 @@
+{
+    "server": {
+        "port": 8084
+    },
+    "authentication": {
+        "hostname": "http://localhost:8055/token/valid"
+    },
+    "allowedRoles": [
+        "*"
+    ],
+    "mongoConfig": {
+        "uri": "mongodb://localhost/freds",
+        "options": {
+            "server": {
+                "auto_reconnect": false,
+                "socketOptions": {
+                    "keepAlive": 1,
+                    "connectTimeoutMS": 30000
+                }
+            }
+        }
+    }
+}

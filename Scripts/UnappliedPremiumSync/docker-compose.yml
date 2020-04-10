@@ -1,0 +1,13 @@
+version: '2'
+services:
+    greenway-sync-job:
+      build: .
+      image: "greenway-sync-job"
+      container_name: 'greenway_sync_job'
+      volumes:
+        - .:/usr/src/app:rw
+        - /usr/src/app/node_modules
+        - /etc/localtime:/etc/localtime:ro
+      environment:
+        NODE_ENV: ${NODE_ENV}
+      restart: unless-stopped
